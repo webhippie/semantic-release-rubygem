@@ -1,28 +1,51 @@
-const { unlink } = require('fs').promises;
-const execa = require('execa');
+import { unlink } from 'node:fs/promises';
+import { execa } from 'execa';
 
-module.exports = async function publish(
+export default async function publish(
   { gemHost, gemPublish = true, gemFileDir = false },
   { cwd, env, logger, nextRelease: { version }, stdout, stderr },
   { gemFile, gemName, credentialsFile },
 ) {
   if (gemPublish !== false) {
-    logger.log(`Publishing version ${version} to gem server`);
-    const args = ['push', gemFile, '--config-file', credentialsFile];
+    logger.log(`Publishing version ${version} to rubygems`);
+
+    const args = [
+      'push',
+      gemFile,
+      '--config-file',
+      credentialsFile
+    ];
+
     if (gemHost) {
       args.push('--host', gemHost);
     }
-    const pushResult = execa('gem', args, { cwd, env });
-    pushResult.stdout.pipe(stdout, { end: false });
-    pushResult.stderr.pipe(stderr, { end: false });
+
+    const pushResult = execa(
+      'gem',
+      args,
+      { cwd, env }
+    );
+
+    pushResult.stdout.pipe(
+      stdout,
+      { end: false }
+    );
+
+    pushResult.stderr.pipe(
+      stderr,
+      { end: false }
+    );
+
     await pushResult;
 
-    logger.log(`Published version ${version} of ${gemName} to gem server`);
+    logger.log(`Published version ${version} of ${gemName} to rubygems`);
   } else {
-    logger.log(`Skip publishing to gem server because gemPublish is ${gemPublish !== false}`);
+    logger.log(`Skip publishing to rubygems because gemPublish is ${gemPublish !== false}`);
   }
 
   if (gemFileDir === false) {
-    await unlink(gemFile);
+    await unlink(
+      gemFile
+    );
   }
 };

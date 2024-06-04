@@ -1,0 +1,89 @@
+---
+name: test
+
+"on":
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+env:
+  FORCE_COLOR: 1
+  NPM_CONFIG_COLOR: always
+
+jobs:
+  test-matrix:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        nodejs:
+          - 20
+          - 21
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: "${{ matrix.nodejs }}"
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install --ci
+
+      - name: Audit signatures
+        run: corepack npm audit signatures
+
+      - name: Execute tests
+        run: npm test
+
+  test-develop:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install --ci
+
+      - name: Audit signatures
+        run: corepack npm audit signatures
+
+      - name: Execute tests
+        run: npm test
+
+
+  test-result:
+    runs-on: ubuntu-latest
+
+    needs:
+      - test-develop
+      - test-matrix
+
+    if: ${{ !cancelled() }}
+
+    steps:
+      - name: All matrix versions passed
+        if: ${{ !(contains(needs.*.result, 'failure')) }}
+        run: exit 0
+
+      - name: Some matrix version failed
+        if: ${{ contains(needs.*.result, 'failure') }}
+        run: exit 1
+
+...

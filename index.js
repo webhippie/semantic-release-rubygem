@@ -1,24 +1,36 @@
-const tempy = require('tempy');
-const gemVerify = require('./src/verifyConditions');
-const gemPrepare = require('./src/prepare');
-const gemPublish = require('./src/publish');
+/* eslint require-atomic-updates: off */
+import { temporaryFile } from "tempy";
 
-const credentialsFile = tempy.file({ name: 'gem_credentials' });
-let gemName;
-let gemspec;
+import gemVerify from "./lib/verify.js";
+import gemPrepare from "./lib/prepare.js";
+import gemPublish from "./lib/publish.js";
+
+const credentialsFile = temporaryFile({ name: "gem_credentials" });
+
 let versionFile;
+
+let gemName;
+let gemSpec;
 let gemFile;
 
-async function verifyConditions(pluginConfig, context) {
-  ({ gemName, gemspec, versionFile } = await gemVerify(pluginConfig, context, { credentialsFile }));
+export async function verifyConditions(pluginConfig, context) {
+  ({ gemName, gemSpec, versionFile } = await gemVerify(pluginConfig, context, {
+    credentialsFile,
+  }));
 }
 
-async function prepare(pluginConfig, context) {
-  ({ gemFile } = await gemPrepare(pluginConfig, context, { versionFile, gemspec, gemName }));
+export async function prepare(pluginConfig, context) {
+  ({ gemFile } = await gemPrepare(pluginConfig, context, {
+    versionFile,
+    gemSpec,
+    gemName,
+  }));
 }
 
-async function publish(pluginConfig, context) {
-  await gemPublish(pluginConfig, context, { gemFile, gemName, credentialsFile });
+export async function publish(pluginConfig, context) {
+  await gemPublish(pluginConfig, context, {
+    gemFile,
+    gemName,
+    credentialsFile,
+  });
 }
-
-module.exports = { verifyConditions, prepare, publish };
