@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "@semantic-release/error": "^4.0.0",
-    "execa": "^4.0.2",
+    "execa": "^9.1.0",
     "glob": "^7.1.6",
     "tempy": "^0.5.0"
   },
