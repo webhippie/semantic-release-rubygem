@@ -10,6 +10,10 @@
       url = "github:cachix/devenv";
     };
 
+    pre-commit-hooks-nix = {
+      url = "github:cachix/pre-commit-hooks.nix";
+    };
+
     flake-parts = {
       url = "github:hercules-ci/flake-parts";
     };
@@ -19,6 +23,7 @@
     flake-parts.lib.mkFlake { inherit inputs; } {
       imports = [
         inputs.devenv.flakeModule
+        inputs.pre-commit-hooks-nix.flakeModule
       ];
 
       systems = [
@@ -38,6 +43,19 @@
           }
         ];
 
+        pre-commit = {
+          settings = {
+            hooks = {
+              nixpkgs-fmt = {
+                enable = true;
+              };
+              eslint = {
+                enable = true;
+              };
+            };
+          };
+        };
+
         devenv = {
           shells = {
             default = {
@@ -52,6 +70,8 @@
                   package = pkgs.ruby_3_3;
                 };
               };
+
+              packages = with pkgs; [];
             };
           };
         };
