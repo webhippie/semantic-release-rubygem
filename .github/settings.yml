@@ -112,5 +112,3 @@ labels:
   - name: outdated
     color: cccccc
     description: This is out of scope and outdated
-
-...
