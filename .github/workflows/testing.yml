@@ -36,7 +36,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "${{ matrix.nodejs }}"
-          cache: "npm"
+          cache: npm
 
       - name: Install dependencies
         run: npm install --ci
@@ -58,7 +58,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
-          cache: "npm"
+          cache: npm
 
       - name: Install dependencies
         run: npm install --ci
@@ -86,3 +86,5 @@ jobs:
       - name: Some matrix version failed
         if: ${{ contains(needs.*.result, 'failure') }}
         run: exit 1
+
+...
