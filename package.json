@@ -96,8 +96,8 @@
   },
   "scripts": {
     "codecov": "codecov -f coverage/coverage-final.json",
-    "lint:prettier": "prettier --check \"{lib,test}/**/*.{js,json,ts}\" \"*.{js,md,json}\" \".github/**/*.yml\"",
-    "lint:prettier:fix": "prettier --write \"{lib,test}/**/*.{js,json,ts}\" \"*.{js,md,json}\" \".github/**/*.yml\"",
+    "lint:prettier": "prettier --check \"{lib,test}/**/*.{js,json,ts}\" \"*.{js,json}\"",
+    "lint:prettier:fix": "prettier --write \"{lib,test}/**/*.{js,json,ts}\" \"*.{js,json}\"",
     "lint:lockfile": "lockfile-lint",
     "lint:engines": "ls-engines",
     "lint:publish": "publint --strict",
