@@ -1,6 +1,6 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        "github>webhippie/.github//renovate/preset"
-    ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>webhippie/.github//renovate/preset"
+  ]
 }
