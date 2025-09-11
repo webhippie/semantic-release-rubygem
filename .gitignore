@@ -1,5 +1,7 @@
-.direnv
-.devenv
+.direnv/
+.devenv/
 
 node_modules/
 coverage/
+
+.pre-commit-config.yaml
