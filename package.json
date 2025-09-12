@@ -39,7 +39,7 @@
     "prettier": "3.3.0",
     "publint": "0.3.12",
     "semantic-release": "24.0.0",
-    "sinon": "18.0.0",
+    "sinon": "18.0.1",
     "tempy": "3.1.0"
   },
   "engines": {
