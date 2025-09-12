@@ -28,7 +28,7 @@
     "tempy": "^3.1.0"
   },
   "devDependencies": {
-    "ava": "6.1.3",
+    "ava": "6.4.1",
     "c8": "9.1.0",
     "cpy": "11.0.1",
     "cz-conventional-changelog": "3.3.0",
