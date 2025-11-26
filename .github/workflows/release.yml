@@ -27,6 +27,9 @@ jobs:
           node-version: lts/*
           cache: npm
 
+      - name: Write buildtime
+        run: date >| .github/RELEASE
+
       - name: Install dependencies
         run: npm install --ci
 
@@ -37,5 +40,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
+
+      - name: Update repo
+        run: git pull --rebase --autostash
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9
+        with:
+          author_name: GitHub Actions
+          author_email: github@webhippie.de
+          add: .github/RELEASE
+          message: "docs: automated release update [skip ci]"
+          push: true
+          commit: --signoff
 
 ...
