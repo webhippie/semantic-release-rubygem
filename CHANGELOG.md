@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.1.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.0.0...v2.1.0) (2025-12-01)
+
+### Features
+
+* **minor:** update dependency prettier to v3.7.0 ([#64](https://github.com/webhippie/semantic-release-rubygem/issues/64)) ([b53b444](https://github.com/webhippie/semantic-release-rubygem/commit/b53b444803de1ada0f5d8bb2d91ac39686b3bbcd))
+
+### Bugfixes
+
+* **patch:** update dependency prettier to v3.7.1 ([#65](https://github.com/webhippie/semantic-release-rubygem/issues/65)) ([5560379](https://github.com/webhippie/semantic-release-rubygem/commit/55603795263518eb9634b9b5d267735cd64cabf1))
+* **patch:** update npm to v11.6.4 ([#63](https://github.com/webhippie/semantic-release-rubygem/issues/63)) ([67d90f2](https://github.com/webhippie/semantic-release-rubygem/commit/67d90f23d41a5b819ceb055dd33ab24207cc58be))
+
 ## [2.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v1.1.0...v2.0.0) (2025-11-26)
 
 ### Features
