@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.2.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.1.1...v2.2.0) (2025-12-15)
+
+### Features
+
+* **minor:** update npm to v11.7.0 ([#74](https://github.com/webhippie/semantic-release-rubygem/issues/74)) ([4010283](https://github.com/webhippie/semantic-release-rubygem/commit/401028331ff0f03fac4dc1a93ce8a383e0f8079f))
+
+### Bugfixes
+
+* **patch:** update dependency publint to v0.3.16 ([#75](https://github.com/webhippie/semantic-release-rubygem/issues/75)) ([ecf0267](https://github.com/webhippie/semantic-release-rubygem/commit/ecf0267884dec1caaff058a65c4885e642a37cae))
+
 ## [2.1.1](https://github.com/webhippie/semantic-release-rubygem/compare/v2.1.0...v2.1.1) (2025-12-08)
 
 ### Bugfixes
