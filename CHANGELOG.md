@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.2.1](https://github.com/webhippie/semantic-release-rubygem/compare/v2.2.0...v2.2.1) (2025-12-22)
+
+### Bugfixes
+
+* **patch:** update dependency ls-engines to v0.9.4 ([#76](https://github.com/webhippie/semantic-release-rubygem/issues/76)) ([100f5f3](https://github.com/webhippie/semantic-release-rubygem/commit/100f5f3e9f07705b28f58ae031c9e7175a8fea32))
+
 ## [2.2.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.1.1...v2.2.0) (2025-12-15)
 
 ### Features
