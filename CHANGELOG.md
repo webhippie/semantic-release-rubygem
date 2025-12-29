@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.3.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.2.1...v2.3.0) (2025-12-29)
+
+### Features
+
+* **minor:** update dependency ls-engines to v0.10.0 ([#78](https://github.com/webhippie/semantic-release-rubygem/issues/78)) ([8249475](https://github.com/webhippie/semantic-release-rubygem/commit/8249475fb0eed4b66f20681c83614568ab1483b4))
+
+### Bugfixes
+
+* **patch:** update dependency sinon to v21.0.1 ([#77](https://github.com/webhippie/semantic-release-rubygem/issues/77)) ([3cbe182](https://github.com/webhippie/semantic-release-rubygem/commit/3cbe182b9f3f37ef59fc62013903088ca58e5015))
+
 ## [2.2.1](https://github.com/webhippie/semantic-release-rubygem/compare/v2.2.0...v2.2.1) (2025-12-22)
 
 ### Bugfixes
