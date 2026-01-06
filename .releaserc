@@ -57,26 +57,11 @@
                             "section": "Features"
                         },
                         {
-                            "type": "deps",
-                            "scope": "major",
-                            "section": "Features"
-                        },
-                        {
                             "type": "minor",
                             "section": "Features"
                         },
                         {
-                            "type": "deps",
-                            "scope": "minor",
-                            "section": "Features"
-                        },
-                        {
                             "type": "patch",
-                            "section": "Bugfixes"
-                        },
-                        {
-                            "type": "deps",
-                            "scope": "patch",
                             "section": "Bugfixes"
                         },
                         {
@@ -88,8 +73,13 @@
                             "section": "Bugfixes"
                         },
                         {
+                            "type": "deps",
+                            "section": "Dependencies"
+                        },
+                        {
                             "type": "chore",
-                            "hidden": true
+                            "section": "Miscellaneous",
+                            "hidden": false
                         },
                         {
                             "type": "docs",
@@ -110,25 +100,26 @@
             }
         ],
         [
-            "@semantic-release/git",
-            {
-                "message": "chore: release ${nextRelease.version} [skip ci]",
-                "assets": [
-                    "CHANGELOG.md",
-                    ".github/RELEASE"
-                ]
-            }
-        ],
-        [
             "@semantic-release/npm",
             {
                 "npmPublish": true
             }
         ],
         [
+            "@semantic-release/git",
+            {
+                "message": "chore: release ${nextRelease.version} [skip ci]",
+                "assets": [
+                    "CHANGELOG.md",
+                    ".github/RELEASE",
+                    "package.json",
+                    "package-lock.json"
+                ]
+            }
+        ],
+        [
             "@semantic-release/github",
             {
-                "publish": true,
                 "assets": []
             }
         ]
