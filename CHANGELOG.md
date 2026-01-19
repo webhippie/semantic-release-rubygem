@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.4.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.3.0...v2.4.0) (2026-01-19)
+
+### Dependencies
+
+* **minor:** update dependency prettier to v3.8.0 ([#81](https://github.com/webhippie/semantic-release-rubygem/issues/81)) ([662c118](https://github.com/webhippie/semantic-release-rubygem/commit/662c1188e315bcd53baa159d49ec288c0322cc9b))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([21bda9e](https://github.com/webhippie/semantic-release-rubygem/commit/21bda9e4b133d04a416f027f32f2339de86cad9d))
+* **flake:** updated lockfile [skip ci] ([fbed474](https://github.com/webhippie/semantic-release-rubygem/commit/fbed474dbbbeb7c79930b3e3842e5a1cd4c4e181))
+* **flake:** updated lockfile [skip ci] ([3690926](https://github.com/webhippie/semantic-release-rubygem/commit/3690926b3e47787b70226aae6f11e8f0af7ddd6c))
+
 ## [2.3.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.2.1...v2.3.0) (2025-12-29)
 
 ### Features
