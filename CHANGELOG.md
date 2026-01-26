@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.5.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.4.0...v2.5.0) (2026-01-26)
+
+### Dependencies
+
+* **minor:** update npm to v11.8.0 ([#86](https://github.com/webhippie/semantic-release-rubygem/issues/86)) ([55111df](https://github.com/webhippie/semantic-release-rubygem/commit/55111dfc8b5e13f73bec2e69a3ccb842852e1b42))
+* **patch:** update dependency prettier to v3.8.1 ([#85](https://github.com/webhippie/semantic-release-rubygem/issues/85)) ([04c0ce6](https://github.com/webhippie/semantic-release-rubygem/commit/04c0ce6b3cdc6e013b33f1c2d7eca085ff71f60f))
+* **patch:** update dependency publint to v0.3.17 ([#84](https://github.com/webhippie/semantic-release-rubygem/issues/84)) ([5c6ab16](https://github.com/webhippie/semantic-release-rubygem/commit/5c6ab16e5e4933b78174638071a040f5e2eb16af))
+* **patch:** update dependency tempy to v3.1.1 ([#82](https://github.com/webhippie/semantic-release-rubygem/issues/82)) ([3f396e6](https://github.com/webhippie/semantic-release-rubygem/commit/3f396e6580b795da30f23b2cefeadbf40df3e3ac))
+* **patch:** update dependency tempy to v3.1.1 ([#83](https://github.com/webhippie/semantic-release-rubygem/issues/83)) ([6d5c5da](https://github.com/webhippie/semantic-release-rubygem/commit/6d5c5da874eca00740eeba9ca50c4d04d4b5cfcb))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([c74e44a](https://github.com/webhippie/semantic-release-rubygem/commit/c74e44a29356dc5f7610bcc3af4564022019a677))
+
 ## [2.4.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.3.0...v2.4.0) (2026-01-19)
 
 ### Dependencies
