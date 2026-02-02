@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.5.0...v3.0.0) (2026-02-02)
+
+### Dependencies
+
+* **major:** update dependency lockfile-lint to v5 ([#89](https://github.com/webhippie/semantic-release-rubygem/issues/89)) ([0877bab](https://github.com/webhippie/semantic-release-rubygem/commit/0877bab114ccb32d2821cfb122633fb14b7b58d9))
+* **patch:** update dependency tempy to v3.1.2 ([#87](https://github.com/webhippie/semantic-release-rubygem/issues/87)) ([0f5a0fb](https://github.com/webhippie/semantic-release-rubygem/commit/0f5a0fbd1c5332849aa6cf2eac34291eac868cff))
+* **patch:** update dependency tempy to v3.1.2 ([#88](https://github.com/webhippie/semantic-release-rubygem/issues/88)) ([f90a71e](https://github.com/webhippie/semantic-release-rubygem/commit/f90a71e4400df2f7d20dab365737e3aef6833b89))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([97aa59d](https://github.com/webhippie/semantic-release-rubygem/commit/97aa59db1f17a5816796362d0534ba631416343a))
+
 ## [2.5.0](https://github.com/webhippie/semantic-release-rubygem/compare/v2.4.0...v2.5.0) (2026-01-26)
 
 ### Dependencies
