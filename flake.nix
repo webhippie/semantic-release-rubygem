@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs = {
-      url = "github:NixOS/nixpkgs/nixos-unstable";
+      url = "github:nixos/nixpkgs/nixos-25.11";
     };
 
     devenv = {
@@ -71,12 +71,12 @@
                 languages = {
                   javascript = {
                     enable = true;
-                    package = pkgs.nodejs_20;
+                    package = pkgs.nodejs_22;
                   };
 
                   ruby = {
                     enable = true;
-                    package = pkgs.ruby_3_4;
+                    package = pkgs.ruby;
                   };
                 };
 
