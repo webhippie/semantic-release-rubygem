@@ -48,6 +48,8 @@ rulesets:
         parameters:
           strict_required_status_checks_policy: true
           required_status_checks:
+            - context: test-matrix (22)
+              integration_id: 15368
             - context: test-develop
               integration_id: 15368
     bypass_actors:

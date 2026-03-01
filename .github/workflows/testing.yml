@@ -25,8 +25,7 @@ jobs:
     strategy:
       matrix:
         nodejs:
-          - 20
-          - 21
+          - 22
 
     steps:
       - name: Checkout source
