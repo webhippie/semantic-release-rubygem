@@ -1,5 +1,28 @@
 # Changelog
 
+## [5.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v4.1.1...v5.0.0) (2026-03-02)
+
+### ⚠ BREAKING CHANGES
+
+* drop support for node v20 matching semantic release
+
+### Features
+
+* drop support for node v20 matching semantic release ([afe414f](https://github.com/webhippie/semantic-release-rubygem/commit/afe414f50865785c31c544293b5e0cfaee6dd440))
+
+### Dependencies
+
+* **major:** update dependency c8 to v11 ([#107](https://github.com/webhippie/semantic-release-rubygem/issues/107)) ([e25a683](https://github.com/webhippie/semantic-release-rubygem/commit/e25a683781adf7d5ba6f968bf7c22f62556cac51))
+* **minor:** update npm to v11.11.0 ([#108](https://github.com/webhippie/semantic-release-rubygem/issues/108)) ([3845505](https://github.com/webhippie/semantic-release-rubygem/commit/3845505598f29f9c483617c9bc04c0de4efc89f9))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([483a31f](https://github.com/webhippie/semantic-release-rubygem/commit/483a31f4a71cbcd719e57ddb34f8462c609c4cb2))
+* **locks:** lock file maintenance ([#102](https://github.com/webhippie/semantic-release-rubygem/issues/102)) ([e95a177](https://github.com/webhippie/semantic-release-rubygem/commit/e95a1777b19d6363d878379e17ed7e2fb9bc6b04))
+* **locks:** lock file maintenance ([#109](https://github.com/webhippie/semantic-release-rubygem/issues/109)) ([be1716d](https://github.com/webhippie/semantic-release-rubygem/commit/be1716d973db6241144b163cac2f76a00ccabd50))
+* replace nixfmt package ([dc7658a](https://github.com/webhippie/semantic-release-rubygem/commit/dc7658a2b6b38dfb3ba3a19ef954fb60bb7d1644))
+* switch flake to stable input ([c937c81](https://github.com/webhippie/semantic-release-rubygem/commit/c937c8150aa476ef8a1ec6c0b11df793a6ac0e3f))
+
 ## [4.1.1](https://github.com/webhippie/semantic-release-rubygem/compare/v4.1.0...v4.1.1) (2026-02-23)
 
 ### Dependencies
