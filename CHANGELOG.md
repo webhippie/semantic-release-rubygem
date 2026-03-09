@@ -1,5 +1,18 @@
 # Changelog
 
+## [6.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v5.0.0...v6.0.0) (2026-03-09)
+
+### Dependencies
+
+* **major:** update dependency ava to v7 ([#110](https://github.com/webhippie/semantic-release-rubygem/issues/110)) ([4ba9b3b](https://github.com/webhippie/semantic-release-rubygem/commit/4ba9b3b0ce09ae563ae31b34ecc89788d150cc98))
+* **patch:** update dependency publint to v0.3.18 ([#111](https://github.com/webhippie/semantic-release-rubygem/issues/111)) ([20d9a42](https://github.com/webhippie/semantic-release-rubygem/commit/20d9a4287751190f2ec1e18770549c3ac0f36f7b))
+* **patch:** update dependency sinon to v21.0.2 ([#112](https://github.com/webhippie/semantic-release-rubygem/issues/112)) ([6f37579](https://github.com/webhippie/semantic-release-rubygem/commit/6f375790732ce83cf87fd7e9837b8ffe2553a11c))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([66042b0](https://github.com/webhippie/semantic-release-rubygem/commit/66042b083243406c314021a19595c186b5a03a2f))
+* **locks:** lock file maintenance ([#113](https://github.com/webhippie/semantic-release-rubygem/issues/113)) ([d537778](https://github.com/webhippie/semantic-release-rubygem/commit/d5377789134429a3751b0da3ecce7aeca70de65c))
+
 ## [5.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v4.1.1...v5.0.0) (2026-03-02)
 
 ### ⚠ BREAKING CHANGES
