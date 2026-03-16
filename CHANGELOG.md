@@ -1,5 +1,16 @@
 # Changelog
 
+## [6.0.1](https://github.com/webhippie/semantic-release-rubygem/compare/v6.0.0...v6.0.1) (2026-03-16)
+
+### Dependencies
+
+* **patch:** update npm to v11.11.1 ([#115](https://github.com/webhippie/semantic-release-rubygem/issues/115)) ([129779c](https://github.com/webhippie/semantic-release-rubygem/commit/129779c9ce0b4c06803cede3b2c88b65668238c2))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([dc18a1d](https://github.com/webhippie/semantic-release-rubygem/commit/dc18a1de6bcd6f31827d249364af09a49a4d45f2))
+* **locks:** lock file maintenance ([#116](https://github.com/webhippie/semantic-release-rubygem/issues/116)) ([c98af86](https://github.com/webhippie/semantic-release-rubygem/commit/c98af86852e0185e901e102c8035a054e49bb039))
+
 ## [6.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v5.0.0...v6.0.0) (2026-03-09)
 
 ### Dependencies
