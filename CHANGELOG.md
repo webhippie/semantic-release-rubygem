@@ -1,5 +1,18 @@
 # Changelog
 
+## [6.2.1](https://github.com/webhippie/semantic-release-rubygem/compare/v6.2.0...v6.2.1) (2026-04-20)
+
+### Dependencies
+
+* **patch:** update dependency prettier to v3.8.3 ([#130](https://github.com/webhippie/semantic-release-rubygem/issues/130)) ([856bb2b](https://github.com/webhippie/semantic-release-rubygem/commit/856bb2b548e8b9cabfcbd9678734023484d67078))
+* **patch:** update dependency sinon to v21.1.1 ([#128](https://github.com/webhippie/semantic-release-rubygem/issues/128)) ([fefe82a](https://github.com/webhippie/semantic-release-rubygem/commit/fefe82a6c17547721cd38c8e8ff3aa31d61c2e1e))
+* **patch:** update dependency sinon to v21.1.2 ([#129](https://github.com/webhippie/semantic-release-rubygem/issues/129)) ([afbfd09](https://github.com/webhippie/semantic-release-rubygem/commit/afbfd09f15a059377ba8d5bffabd48f68d6f40b0))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([06ae937](https://github.com/webhippie/semantic-release-rubygem/commit/06ae937cbe119e38139e45a2eb1b1d6b7f1d9ecf))
+* **locks:** lock file maintenance ([#131](https://github.com/webhippie/semantic-release-rubygem/issues/131)) ([5eb9d83](https://github.com/webhippie/semantic-release-rubygem/commit/5eb9d8330dd09cb6468edf8d3c31cac41704dd02))
+
 ## [6.2.0](https://github.com/webhippie/semantic-release-rubygem/compare/v6.1.1...v6.2.0) (2026-04-13)
 
 ### Dependencies
