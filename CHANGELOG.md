@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v6.3.0...v7.0.0) (2026-05-11)
+
+### Dependencies
+
+* **major:** update dependency ava to v8 ([#134](https://github.com/webhippie/semantic-release-rubygem/issues/134)) ([e384488](https://github.com/webhippie/semantic-release-rubygem/commit/e384488323075295f51bda38feb05b2dbf2f25dd))
+* **major:** update dependency sinon to v22 ([#138](https://github.com/webhippie/semantic-release-rubygem/issues/138)) ([fcfb068](https://github.com/webhippie/semantic-release-rubygem/commit/fcfb0684ca354324b35cf8ca4e558a4f117eafcc))
+* **minor:** update npm to v11.14.0 ([#139](https://github.com/webhippie/semantic-release-rubygem/issues/139)) ([3ce6ce4](https://github.com/webhippie/semantic-release-rubygem/commit/3ce6ce48a7220d61fab470ff9dd657eb299d6b57))
+* **patch:** update dependency cpy to v13.2.2 ([#137](https://github.com/webhippie/semantic-release-rubygem/issues/137)) ([1d5b6de](https://github.com/webhippie/semantic-release-rubygem/commit/1d5b6de5341eced5fe58b1494d00c6039d30abb4))
+* **patch:** update dependency publint to v0.3.19 ([#136](https://github.com/webhippie/semantic-release-rubygem/issues/136)) ([724f537](https://github.com/webhippie/semantic-release-rubygem/commit/724f5372018b83fb7cc076f70b2a650a4233c0c9))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([9533513](https://github.com/webhippie/semantic-release-rubygem/commit/95335136ee58a3f3f58dc8f4cd35145466d62341))
+* **flake:** updated lockfile [skip ci] ([3ecce84](https://github.com/webhippie/semantic-release-rubygem/commit/3ecce8429f15103ea51d73282369e076def3d6b9))
+* **locks:** lock file maintenance ([#135](https://github.com/webhippie/semantic-release-rubygem/issues/135)) ([0952f18](https://github.com/webhippie/semantic-release-rubygem/commit/0952f187bf127365925b0f39944bf5deb5b50524))
+* **locks:** lock file maintenance ([#140](https://github.com/webhippie/semantic-release-rubygem/issues/140)) ([3bad538](https://github.com/webhippie/semantic-release-rubygem/commit/3bad5385f843fd3363367e88e2d0925e30af20ce))
+
 ## [6.3.0](https://github.com/webhippie/semantic-release-rubygem/compare/v6.2.1...v6.3.0) (2026-04-27)
 
 ### Dependencies
