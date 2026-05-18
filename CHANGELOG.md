@@ -1,5 +1,18 @@
 # Changelog
 
+## [7.0.1](https://github.com/webhippie/semantic-release-rubygem/compare/v7.0.0...v7.0.1) (2026-05-18)
+
+### Dependencies
+
+* **patch:** update dependency publint to v0.3.20 ([#141](https://github.com/webhippie/semantic-release-rubygem/issues/141)) ([d7d2f78](https://github.com/webhippie/semantic-release-rubygem/commit/d7d2f78b8686bdabf6453d480f4bc10fba2304f3))
+* **patch:** update dependency publint to v0.3.21 ([#143](https://github.com/webhippie/semantic-release-rubygem/issues/143)) ([6ba2274](https://github.com/webhippie/semantic-release-rubygem/commit/6ba227444e4f43faf5a1bf4eada4f8c4b8c11971))
+* **patch:** update npm to v11.14.1 ([#142](https://github.com/webhippie/semantic-release-rubygem/issues/142)) ([41d3ea1](https://github.com/webhippie/semantic-release-rubygem/commit/41d3ea184642e71077bd61b46e7369e5db004e61))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([127b03c](https://github.com/webhippie/semantic-release-rubygem/commit/127b03ce01d6eabd5ba12e8997089a25597a25c8))
+* **locks:** lock file maintenance ([#144](https://github.com/webhippie/semantic-release-rubygem/issues/144)) ([c46b6b2](https://github.com/webhippie/semantic-release-rubygem/commit/c46b6b2235b9a16f14ee9874f7d2f31b97c6ca75))
+
 ## [7.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v6.3.0...v7.0.0) (2026-05-11)
 
 ### Dependencies
