@@ -1,5 +1,18 @@
 # Changelog
 
+## [8.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v7.0.1...v8.0.0) (2026-05-25)
+
+### Dependencies
+
+* **major:** update dependency npm-run-all2 to v9 ([#146](https://github.com/webhippie/semantic-release-rubygem/issues/146)) ([9681ff5](https://github.com/webhippie/semantic-release-rubygem/commit/9681ff5b916d57527bbb24e107e561eb50adf4d1))
+* **minor:** update npm to v11.15.0 ([#147](https://github.com/webhippie/semantic-release-rubygem/issues/147)) ([172ba1c](https://github.com/webhippie/semantic-release-rubygem/commit/172ba1ce1f3623f3ac06c6bd05da3fcb4a0799db))
+* **patch:** update dependency ava to v8.0.1 ([#145](https://github.com/webhippie/semantic-release-rubygem/issues/145)) ([70da8ed](https://github.com/webhippie/semantic-release-rubygem/commit/70da8ed404db43ed2d17faeffe1c4e1e76c4b346))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([9517d9b](https://github.com/webhippie/semantic-release-rubygem/commit/9517d9bc616b99c6ca770cb8d371a38ddc30c426))
+* **locks:** lock file maintenance ([#148](https://github.com/webhippie/semantic-release-rubygem/issues/148)) ([59309ce](https://github.com/webhippie/semantic-release-rubygem/commit/59309ce6d8f4aa9585d27359c71f9be8de1fd366))
+
 ## [7.0.1](https://github.com/webhippie/semantic-release-rubygem/compare/v7.0.0...v7.0.1) (2026-05-18)
 
 ### Dependencies
