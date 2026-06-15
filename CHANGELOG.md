@@ -1,5 +1,21 @@
 # Changelog
 
+## [8.2.0](https://github.com/webhippie/semantic-release-rubygem/compare/v8.1.0...v8.2.0) (2026-06-15)
+
+### Dependencies
+
+* **minor:** update npm to v11.17.0 ([#156](https://github.com/webhippie/semantic-release-rubygem/issues/156)) ([08e5c32](https://github.com/webhippie/semantic-release-rubygem/commit/08e5c32d0a018576c1c77ff1ad44eded39168dfa))
+* **patch:** update dependency prettier to v3.8.4 ([#153](https://github.com/webhippie/semantic-release-rubygem/issues/153)) ([c78a6b9](https://github.com/webhippie/semantic-release-rubygem/commit/c78a6b9ca950f66648e7250733ec2b163abc3501))
+* **patch:** update semantic-release monorepo to v25.0.4 ([#154](https://github.com/webhippie/semantic-release-rubygem/issues/154)) ([fb9c941](https://github.com/webhippie/semantic-release-rubygem/commit/fb9c9410545421a93921966c2000eb04490cf0e7))
+* **patch:** update semantic-release monorepo to v25.0.5 ([#155](https://github.com/webhippie/semantic-release-rubygem/issues/155)) ([42fb8b8](https://github.com/webhippie/semantic-release-rubygem/commit/42fb8b881f7839944ad7dcbc929883a0dab2b431))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([db7b05f](https://github.com/webhippie/semantic-release-rubygem/commit/db7b05f79b0ae27395034a1e093e12d7884f90c1))
+* **flake:** updated lockfile [skip ci] ([8c0d007](https://github.com/webhippie/semantic-release-rubygem/commit/8c0d007fb05d43cc8592a007e7b122c6a3219998))
+* **locks:** lock file maintenance ([#152](https://github.com/webhippie/semantic-release-rubygem/issues/152)) ([a714e9d](https://github.com/webhippie/semantic-release-rubygem/commit/a714e9d6a492f4d17ebf98bc589a99aa702a84bd))
+* **locks:** lock file maintenance ([#157](https://github.com/webhippie/semantic-release-rubygem/issues/157)) ([d0a0377](https://github.com/webhippie/semantic-release-rubygem/commit/d0a037708949e2d02b3a90d4f61cc7b48ce8133e))
+
 ## [8.1.0](https://github.com/webhippie/semantic-release-rubygem/compare/v8.0.0...v8.1.0) (2026-06-01)
 
 ### Dependencies
