@@ -1,5 +1,7 @@
 # Changelog
 
+## [9.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v8.2.1...v9.0.0) (2026-07-13)
+
 ## [8.2.1](https://github.com/webhippie/semantic-release-rubygem/compare/v8.2.0...v8.2.1) (2026-06-22)
 
 ### Dependencies
