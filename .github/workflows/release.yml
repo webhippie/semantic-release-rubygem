@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Setup nodejs
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: lts/*
 
@@ -39,7 +39,7 @@ jobs:
           token: ${{ steps.token.outputs.token }}
 
       - name: Setup nodejs
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: lts/*
           cache: npm
