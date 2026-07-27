@@ -1,5 +1,7 @@
 # Changelog
 
+## [10.1.0](https://github.com/webhippie/semantic-release-rubygem/compare/v10.0.0...v10.1.0) (2026-07-27)
+
 ## [10.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v9.0.0...v10.0.0) (2026-07-20)
 
 ## [9.0.0](https://github.com/webhippie/semantic-release-rubygem/compare/v8.2.1...v9.0.0) (2026-07-13)
