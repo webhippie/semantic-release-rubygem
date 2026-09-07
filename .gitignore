@@ -1,7 +1,4 @@
-.direnv/
-.devenv/
+mise.local.toml
 
 node_modules/
 coverage/
-
-.pre-commit-config.yaml
